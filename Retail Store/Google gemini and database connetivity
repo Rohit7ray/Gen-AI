@@ -1,0 +1,29 @@
+#AIzaSyCYcE20rEQt9vLaa2E_qu69FyIEeJQg2DM
+from langchain_google_genai import GoogleGenerativeAI
+from api_key import api_key
+from langchain_community.utilities import SQLDatabase
+from langchain_experimental.sql import SQLDatabaseChain
+
+llm = GoogleGenerativeAI(model= 'gemini-pro',
+                         google_api_key = api_key,
+                         temperature = 0.3)
+
+
+# Database Connection
+db = SQLDatabase.from_uri(
+    "mssql+pyodbc://@localhost/atliq_tshirts?driver=ODBC+Driver+17+for+SQL+Server&trusted_connection=yes"
+)
+
+# SQL Chain
+db_chain = SQLDatabaseChain.from_llm(
+    llm,
+    db,
+    verbose=True
+)
+
+# Ask Question
+response = db_chain.invoke(
+    {"query": "How many tshirts are available?"}
+)
+
+print(response)
