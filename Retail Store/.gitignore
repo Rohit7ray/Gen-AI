@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 ﻿__pycache__/
 *.pyc
 api_key.py
 .env
+=======
+﻿__pycache__/
+*.pyc
+api_key.py
+.env
+>>>>>>> 5adc3e0bb63e9e616fb6130256af5b7c5fbb2753
