@@ -5,7 +5,7 @@ from langchain_experimental.sql import SQLDatabaseChain
 from langchain_core.prompts import PromptTemplate
 import os
 
-
+print('hello')
 
 from langchain_core.example_selectors import SemanticSimilarityExampleSelector
 from langchain_community.embeddings import HuggingFaceEmbeddings
