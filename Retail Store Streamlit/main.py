@@ -1,8 +1,19 @@
-from langchain_openai import ChatOpenAI
-from langchain_community.utilities import SQLDatabase
-from langchain_experimental.sql import SQLDatabaseChain
-from langchain_core.example_selectors import SemanticSimilarityExampleSelector
-from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain_community.vectorstores import Chroma
-from langchain_core.prompts import FewShotPromptTemplate, PromptTemplate
-from langchain_classic.chains.sql_database.prompt import PROMPT_SUFFIX, _mssql_prompt
+import streamlit as st
+from helper import get_few_shot_db_chain
+
+st.title("Retail Store: Database Q&A 👕")
+
+question = st.text_input("Question: ")
+
+if question:
+    chain = get_few_shot_db_chain()
+    response = chain.run(question)
+
+    st.header("Answer")
+    st.write(response)
+
+
+
+
+
+
