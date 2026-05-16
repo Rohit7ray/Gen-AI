@@ -14,14 +14,14 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-# print(os.environ["api_key"])
-# print(os.environ["OPENAI_API_KEY"])
+#print(os.environ["api_key"])
+print(os.environ["OPENAI_API_KEY"])
 
 def get_few_shot_db_chain():
     llm = ChatOpenAI(
     model="gpt-3.5-turbo",
     temperature=0,
-    api_key=os.environ["api_key"]
+    api_key=os.environ["OPENAI_API_KEY"]
     )
 # Database Connection
     db = SQLDatabase.from_uri(
