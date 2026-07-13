@@ -1,4 +1,4 @@
-# 📰 AI News Research Tool using RAG & LangChain
+# AI News Research Tool using RAG & LangChain
 
 A Retrieval-Augmented Generation (RAG) application that allows users to ask questions about online news articles. The system retrieves relevant content from news URLs and generates context-aware answers using a Large Language Model.
 
@@ -45,7 +45,7 @@ GPT-3.5
 ↓
 Answer with Sources
 
-## 📚 Key Concepts Implemented
+## Key Concepts Implemented
 
 - Retrieval-Augmented Generation (RAG)
 - Large Language Models
