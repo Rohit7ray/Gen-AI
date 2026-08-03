@@ -29,16 +29,12 @@ GEN-AI-Repository/
 └── README.md
 ```
 
----
-
 ## Projects
 
 | Project | Description | Technologies |
 |----------|-------------|--------------|
-| 📰 **AI News Research Tool** | Retrieval-Augmented Generation (RAG) application that answers questions from online news articles using semantic search and LLMs. | LangChain, OpenAI GPT-3.5, FAISS, Streamlit, Python |
-| 💬 **AI SQL Data Assistant** | AI-powered assistant that converts natural language into SQL queries, executes them on SQL Server, and returns business-friendly responses. | LangChain, OpenAI GPT-3.5, SQL Server, Chroma DB, Python |
-
----
+| **AI News Research Tool** | Retrieval-Augmented Generation (RAG) application that answers questions from online news articles using semantic search and LLMs. | LangChain, OpenAI GPT-3.5, FAISS, Streamlit, Python |
+| **AI SQL Data Assistant** | AI-powered assistant that converts natural language into SQL queries, executes them on SQL Server, and returns business-friendly responses. | LangChain, OpenAI GPT-3.5, SQL Server, Chroma DB, Python |
 
 ## Technologies Used
 
@@ -55,8 +51,6 @@ GEN-AI-Repository/
 - Prompt Engineering
 - Retrieval-Augmented Generation (RAG)
 
----
-
 ## GenAI Concepts Covered
 
 - Large Language Models (LLMs)
@@ -71,8 +65,6 @@ GEN-AI-Repository/
 - Context Injection
 - AI Application Development
 
----
-
 ## Skills Demonstrated
 
 - End-to-End LLM Application Development
@@ -86,8 +78,6 @@ GEN-AI-Repository/
 - Streamlit Application Development
 - OpenAI API Integration
 
----
-
 ## Future Enhancements
 
 - Support for multiple LLM providers (OpenAI, Azure OpenAI, Ollama)
@@ -97,8 +87,6 @@ GEN-AI-Repository/
 - Authentication and user management
 - Monitoring and observability
 - Response evaluation and citation scoring
-
----
 
 ## Author
 
@@ -114,7 +102,5 @@ GEN-AI-Repository/
 - Prompt Engineering
 - Intelligent Search Systems
 - AI-powered Automation
-
----
 
 ⭐ If you found these projects useful, feel free to explore the individual project folders and their detailed documentation.
