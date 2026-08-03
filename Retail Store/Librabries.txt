@@ -1,9 +1,0 @@
-pip install langchian langchain-openai openai
-pip install -U langchain langchain-core langchain-community langchain-openai
-pip install -q langchain langchain-community langchain-experimental
-pip install pyodbc
-pip install langchain-community
-pip install sqlalchemy
-
-pip install sentence-transformers
-pip install chromadb
