@@ -1,24 +1,29 @@
-# 🚀 Generative AI Projects Repository
+# Generative AI Projects Repository
 
 Welcome to my **Generative AI Projects Repository**, a collection of hands-on AI applications built using **Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), LangChain, Prompt Engineering, Vector Databases, and AI-powered automation**.
 
 This repository showcases practical implementations of modern Generative AI concepts to solve real-world business problems, including intelligent document search and natural language database querying.
 
----
-
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 GEN-AI-Repository/
 │
 ├── AI-News-Research-Tool/
 │   ├── README.md
-│   ├── app.py
+│   ├── main.py
+│   ├── requirement.txt
+│   ├── Output.png
+│   ├── faiss_index
 │   └── ...
 │
 ├── AI-SQL-Data-Assistant/
 │   ├── README.md
-│   ├── app.py
+│   ├── main.py
+│   ├── requirement.txt
+│   ├── Output.png
+│   ├── few_shot.py
+│   ├── helper.py
 │   └── ...
 │
 └── README.md
@@ -26,7 +31,7 @@ GEN-AI-Repository/
 
 ---
 
-## 📌 Projects
+## Projects
 
 | Project | Description | Technologies |
 |----------|-------------|--------------|
@@ -35,7 +40,7 @@ GEN-AI-Repository/
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - Python
 - LangChain
@@ -52,7 +57,7 @@ GEN-AI-Repository/
 
 ---
 
-## 🧠 GenAI Concepts Covered
+## GenAI Concepts Covered
 
 - Large Language Models (LLMs)
 - Retrieval-Augmented Generation (RAG)
@@ -68,7 +73,7 @@ GEN-AI-Repository/
 
 ---
 
-## 🎯 Skills Demonstrated
+## Skills Demonstrated
 
 - End-to-End LLM Application Development
 - Retrieval-Augmented Generation (RAG)
@@ -83,7 +88,7 @@ GEN-AI-Repository/
 
 ---
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 - Support for multiple LLM providers (OpenAI, Azure OpenAI, Ollama)
 - Conversational memory
@@ -95,7 +100,7 @@ GEN-AI-Repository/
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Rohit Ray**
 
