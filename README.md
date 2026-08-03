@@ -34,7 +34,7 @@ GEN-AI-Repository/
 | Project | Description | Technologies |
 |----------|-------------|--------------|
 | **AI News Research Tool** | Retrieval-Augmented Generation (RAG) application that answers questions from online news articles using semantic search and LLMs. | LangChain, OpenAI GPT-3.5, FAISS, Streamlit, Python |
-| **AI SQL Data Assistant** | AI-powered assistant that converts natural language into SQL queries, executes them on SQL Server, and returns business-friendly responses. | LangChain, OpenAI GPT-3.5, SQL Server, Chroma DB, Python |
+| **AI SQL Data Assistant** | AI-powered assistant that converts natural language into SQL queries, executes them on SQL Server, and returns business-friendly responses. | LangChain, OpenAI GPT-3.5, SQL Server, Chroma DB, Python, few_shot Prompting, Huggingface Embedding, Streamlit |
 
 ## Technologies Used
 
@@ -78,29 +78,3 @@ GEN-AI-Repository/
 - Streamlit Application Development
 - OpenAI API Integration
 
-## Future Enhancements
-
-- Support for multiple LLM providers (OpenAI, Azure OpenAI, Ollama)
-- Conversational memory
-- Docker containerization
-- Cloud deployment (AWS, Azure, GCP)
-- Authentication and user management
-- Monitoring and observability
-- Response evaluation and citation scoring
-
-## Author
-
-**Rohit Ray**
-
-### Interests
-
-- Generative AI
-- Large Language Models (LLMs)
-- Retrieval-Augmented Generation (RAG)
-- AI Agents
-- LLMOps & MLOps
-- Prompt Engineering
-- Intelligent Search Systems
-- AI-powered Automation
-
-⭐ If you found these projects useful, feel free to explore the individual project folders and their detailed documentation.
