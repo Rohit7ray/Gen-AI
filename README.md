@@ -33,7 +33,7 @@ GEN-AI-Repository/
 
 | Project | Description | Technologies |
 |----------|-------------|--------------|
-| **AI News Research Tool** | Retrieval-Augmented Generation (RAG) application that answers questions from online news articles using semantic search and LLMs. | LangChain, OpenAI GPT-3.5, FAISS, Streamlit, Python |
+| **AI News Research Tool** | Retrieval-Augmented Generation (RAG) application that answers questions from online news articles using semantic search and LLMs. | LangChain, OpenAI GPT-3.5, FAISS, Streamlit, Python, RAG, LCEL |
 | **AI SQL Data Assistant** | AI-powered assistant that converts natural language into SQL queries, executes them on SQL Server, and returns business-friendly responses. | LangChain, OpenAI GPT-3.5, SQL Server, Chroma DB, Python, few_shot Prompting, Huggingface Embedding, Streamlit |
 
 ## Technologies Used
